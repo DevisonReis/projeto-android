@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+/* Variáveis em CSS */
+
+:root {
+    --cor0: #1a5c37;
+    --cor1: #39cf7c;
+}
+
+/* Resete da página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Configurações do body */
+
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    background-color: #e7fcae;
+}
+
+/* Configurações do header */
+
+.cabecalho {
+    background-image: linear-gradient(to bottom, #39cf7c, #1a5c37);
+    height: 200px;
+    padding-top: 3%;
+}
+
+.cabecalho > h1, p {
+    color: white;
+    text-align: center;
+    width: 65%;
+    margin: auto;
+}
+
+.cabecalho > p {
+    margin-top: 20px;
+}
+
+.cabecalho > nav {
+    margin: 4% 15px;
+}
+
+.menu-bar {
+    background-color: #1a5c37;
+    padding: 1%;
+    box-shadow: 0px 6px 22px #2020226e;
+}
+
+nav > ul > a {
+    margin: 4% 1%;
+    color: white;
+}
+
+nav > ul > a:hover {
+    background-color: #39cf7c4d;
+    padding: 1%;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Configurações do main */
+
+.conteudo {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-bottom: 2%;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 6px 22px #2020226e;
+}
+
+main > h1 {
+    margin-bottom: 2%;
+    font-family: Android;
+    color: #1a5c37;
+}
+
+main > h2 {
+    background-image: linear-gradient(to right, #c4ebd5, #ffffff);
+    padding-left: 1%;
+    font-family: Android;
+    color: #1a5c37;
+}
+
+main p {
+    line-height: 2em;
+}
+
+article > p {
+    text-align: justify;
+    color: black;
+    width: auto;
+    margin: 15px 0px;
+    text-indent: 30px;
+}
+
+article > p > a {
+    background-color: #39cf7c81;
+    color: black;
+}
+
+article > p > a:hover {
+    text-decoration: underline;
+}
+
+.img-droid {
+    width: 70%;
+}
+
+picture > img, source {
+    width: 100%;
+}
+
+.bugdroid {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    min-width: 25%;
+}
+
+.div-video {
+    /* background-color: #1a5c37; */
+    width: 100%;
+    margin: 2% 0;
+}
+
+.div-video > iframe {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 0px 12px 0px;
+    height: 0 auto;
+}
+
+.aprender-mais {
+    background-color: #84e1ad;
+    border-radius: 10px;
+}
+
+aside > div.top {
+    background-color: #1a5c37;
+    border-radius: 10px 10px 0 0;
+    height: 2em;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+
+div.center > p {
+    margin: 0;
+    width: 100%;
+    padding: 1%;
+    text-align: justify;
+    color: black;
+}
+
+div.center > ul {
+    margin: 2% auto;
+    width: 100%;
+    padding-left: 1%;
+    width: 100%;
+    text-align: justify;
+    column-count: 2;
+    column-rule-style: solid;
+    list-style-type: '\2714';
+}
+
+.texto-final {
+    color: black;
+    margin: 0;
+    width: auto;
+    padding: 1%;
+    text-align: justify;
+}
+
+.rodape {
+    background-color: #1a5c37;
+
+}
+
+.rodape > p {
+    padding: 10px;
+}
